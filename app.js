@@ -1,4 +1,4 @@
-/* "use strict";
+"use strict";
 let user = prompt("Hello Visitor, What is your name?");
 console.log(" Great Welcome ");
 alert("Welcome " + user + " You will have all android information here");
@@ -34,4 +34,3 @@ if (owner.toLocaleLowerCase() === "yes" || owner.toLocaleLowerCase() === "y") {
 } else {
   alert(user + "Let's try again please!");
 }
-*/
