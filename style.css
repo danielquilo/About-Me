@@ -20,11 +20,35 @@
 --font-android:'Android', cursive;
 }
 * {
-          margin: 0px;
-          padding: 0px;
+margin: 0px;
+padding: 0px;
 }
 body {
-          background-color: var(--cor0);
-          font-family: var(--fonte-padrao);
+background-color: var(--cor0);
+font-family: var(--fonte-padrao);
 }
-]
+header {
+    
+}
+.header-container {
+
+}
+.heading{
+
+}
+.subtitle{
+    font-size: 20px;
+}
+.li {
+
+}
+.li:hover {
+
+}
+main {
+
+}
+
+h2 {
+
+}
