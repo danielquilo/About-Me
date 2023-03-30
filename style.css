@@ -33,46 +33,40 @@ content:'\00A0\1F517';
 header {
 background-image: linear-gradient(to bottom, var(--cor3),var(--cor5));
 background-color: var(--cor4);
-min-height: 150px;
 text-align: center;
-padding-top: 40px;
+padding-top:1rem;
 }
-.header-container {
-background-image: linear-gradient(to bottom,white, red);
 
-}
-.heading{color: white;
+.heading{
+color: white;
 font-family: var(--font-android);
-font-size: 3rem;
+font-size: 3.2rem;
 margin-bottom: 20px;
-text-shadow: 4px 5px 0px rgba(0, 0, 0.514);
+text-shadow: 6px 8px 3px rgba(0, 0, 0.514);
 }
 .subtitle{
+text-align: justify;
 font-family: var(--fonte-padrao);
 font-size: 1.2em;
-color: white;
-max-width: 600px;
-padding-right:  10px;
-padding-left: 10px;
-margin: auto;
-padding-bottom: 50px;
-text-shadow: 2px 2px 0px rgba(0, 0, 0.514);
-}
-
-li {
 text-align: center;
-background-color: var(--cor5);
-font-size: 20px;
-list-style: none;
-display: inline-block;
-margin: 0 0.7rem;
-color: var(--cor2);
+color: white;
+text-shadow: 5px 2px 3px rgba(0, 0, 0.514);
 }
-li:hover{
-font-size: 20px;    
-color: red;
-font-weight: bold;
-background-color: white;
+.a {
+text-align: justify;
+display: inline-block;
+color: var(--cor2);
+padding: 20px;
+text-align: center;
+font-size: 1rem;
+list-style: none;
+margin: 2rem;
+
+}
+.a:hover{
+font-size:1.5rem;    
+color: yellow;
+transition-duration: 0.7s;
 }
 main img {
 width: 100%;
@@ -82,9 +76,9 @@ main {
 min-width: 300px;
 max-width: 1000px;
 margin: auto;
-margin-bottom:2px;
+margin-bottom: 30px;
 padding: 20px;
-background-image: linear-gradient(var(--cor4,var(--cor1)));
+background-color: white;
 box-shadow: 0px 0px 10px rgba(0, 0, 0.418);
 border-bottom-left-radius: 10px;
 border-top-right-radius: 10px;
@@ -95,32 +89,56 @@ max-width: 350px;
 display: block;
 margin: auto;
 }
-h1 { color: var(--cor5);
+
+h1 { 
+color: var(--cor5);
 font-family: var(--font-android);
 font-weight: normal;
 font-size: 1.8em;
+}
+.aside-container {
+color: black;
+list-style-type: decimal;
+font-weight: bold;
+font-size: 1.2rem;
+list-style-position: inside;
+columns: 3;
+margin: 15px;
+padding: 10px;
+}
+aside>h2{ 
+font-size: 1.5rem;
+background-color:  var(--cor3);
+color: white;
+padding: 10px;
+margin: -10px -10px 0px -10px;
+border-radius: 10px 10px 0px 0px;
+box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
+
 }
 .more-content-history { 
 text-align: justify;
 text-indent: 30px;
 font-size: 1em;
 line-height: 2em;
-
 }
-
 
 h2 {
 color: var(--cor5);
+background-image: linear-gradient(to right, var(--cor1), transparent);
+text-indent: 8px;
 font-family: var(--font-android);
 font-weight: normal;
 font-size: 1.8em;
 }
+
 .img-more-content-android{
 width: 100%;
 max-width: 350px;
 display: block;
 margin: auto;
 }
+
 .more-content-android {   
 margin: 15px 0px;
 text-align: justify;
@@ -132,6 +150,7 @@ max-width: 250px;
 display: block;
 margin: auto;
 }
+
 .more-content-mascot {   
 margin: 15px 0px;
 text-align: justify;
@@ -139,24 +158,14 @@ text-indent: 30px;
 font-size: 1em;
 line-height: 2em;
 }
+
 .img-more-contente-irina{
 max-width: 350px;
 display: block;
 margin: auto;
 }
-.more-content-irina{ 
-margin: 15px 0px;
-text-align: justify;
-text-indent: 30px;
-font-size: 1em;
-line-height: 2em;}
 
-.img-bugdroid-more-content{
-max-width: 350px;
-display: block;
-margin: auto;
-}
-.more-content-bugdroid{ 
+.more-content-irina{ 
 margin: 15px 0px;
 text-align: justify;
 text-indent: 30px;
@@ -164,8 +173,51 @@ font-size: 1em;
 line-height: 2em;
 }
 
-.footer-container{}
+.img-bugdroid-more-content{
+max-width: 350px;
+display: block;
+margin: auto;
+}
+
+.more-content-bugdroid{ 
+margin: 15px 0px;
+text-align: justify;
+text-indent: 30px;
+font-size: 1em;
+line-height: 2em;
+}
+aside {
+background-color: var(--cor2);
+padding: 10px;
+border-radius: 10px;
+}
+
+h3 { 
+font-size: 1.5rem;
+background-color:  var(--cor3);
+color: white;
+padding: 10px;
+margin: -10px -10px 0px -10px;
+border-radius: 10px 10px 0px 0px;
+box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
+
+}
+.about-android{
+margin: 20px;
+padding: 20px;
+
+}
+
+.about-container {
+margin: 10px;
+list-style-type: '\2714\00A0\00A0';
+color: red;
+font-size: 1.5rem;
+list-style-position:inside;
+columns: 2;
+}
 .footer-content{
+text-decoration: none;
 list-style: nome;
 font-weight: bold;
 background-color: var(--cor5);
@@ -178,8 +230,3 @@ strong {
 list-style: none;
 color: white;
 }
-
-
-
-
-max-width:670px }
