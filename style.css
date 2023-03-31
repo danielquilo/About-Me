@@ -30,6 +30,25 @@ font-family: var(--fonte-padrao);
 a.externo::after {
 content:'\00A0\1F517';
 }
+#quiz-btn{
+width: 10%;
+height: 50px;
+text-align: center;
+background-image: linear-gradient(to left, white, green);
+padding:10;
+border-radius: 4px 5px black;
+font-size: 2rem;
+font-weight: bold;
+position: left;
+}
+#quiz-btn:hover{ 
+background-color: red;
+ font-size:3.rem;    
+color: yellow;
+transition-duration: 0.7s;
+
+
+}
 header {
 background-image: linear-gradient(to bottom, var(--cor3),var(--cor5));
 background-color: var(--cor4);
@@ -53,14 +72,12 @@ color: white;
 text-shadow: 5px 2px 3px rgba(0, 0, 0.514);
 }
 .a {
-text-align: justify;
-display: inline-block;
+display:inline-block;
 color: var(--cor2);
-padding: 20px;
 text-align: center;
 font-size: 1rem;
 list-style: none;
-margin: 2rem;
+margin: 1.5rem;
 
 }
 .a:hover{
