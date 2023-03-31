@@ -51,7 +51,7 @@ let software = prompt(user + " Is android app developer software free?)( Please 
 if (software.toLocaleLowerCase() === "yes" || software.toLocaleLowerCase() === "y") {
   // console.log("Software free!");
   userPoints++;
-  alert(user + " Amazing! " + user +  " you score " + userPoints + " points! ");
+  alert(user + " Amazing! " + user +  " you score " + userPoints + " points /6 !");
 } else {
   alert( user + " You're wrong! " + user + " You don't score. You still have " + userPoints + " points /6 !");
 }
