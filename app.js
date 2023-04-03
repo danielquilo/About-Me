@@ -5,7 +5,7 @@ const number= 5;
 
 let user = prompt(" Hello Visitor, What is your name? ");
 // console.log(" Great Welcome ");
-alert(" Welcome " + user + " Let's start with some knowledge test ");
+alert(" Welcome " + user + " my website ");
 
 /*-------------------
 Question One

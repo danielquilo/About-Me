@@ -30,23 +30,30 @@ font-family: var(--fonte-padrao);
 a.externo::after {
 content:'\00A0\1F517';
 }
-#quiz-btn{
-width: 73%;
-height: 30px;
-text-align: center;
-background-image: linear-gradient(to left, white, green);
-padding: 10;
-border-radius: 4px 5px black;
-font-size: 1.2rem;
-font-weight: bold;
-position: left;
+@keyframes git {
+0% {
+transform: scale(1);
 }
-#quiz-btn:hover{ 
-background-color: red;
- font-size:1.5rem;    
+100%{
+transform: scale(1.05);
+}
+}
+#quiz-btn{
+background-image: linear-gradient(45deg,#0000ff, #0087f5);
+padding: 20px 40px;
+font-size: 24px;
 color: white;
-transition-duration: 0.7s;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+}
 
+#quiz-btn:hover{ 
+          animation-name: git;
+animation-duration: 0.5s;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+-o-animation-direction: alternate;
 
 }
 header {
