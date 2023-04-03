@@ -39,17 +39,20 @@ transform: scale(1.05);
 }
 }
 #quiz-btn{
-background-image: linear-gradient(45deg,#0000ff, #0087f5);
-padding: 20px 40px;
-font-size: 24px;
-color: white;
-border: none;
-border-radius: 10px;
-cursor: pointer;
+width: 55%;
+height: 30px;
+text-align: center;
+background-image: linear-gradient(to left, white, green);
+padding: 10;
+border-radius: 4px 5px black;
+font-size: 1.2rem;
+font-weight: bold;
+position: left;
 }
 
 #quiz-btn:hover{ 
-          animation-name: git;
+color: white;
+ animation-name: git;
 animation-duration: 0.5s;
 animation-timing-function: ease-in-out;
 animation-iteration-count: infinite;
